@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Hi, I'm [Your Name]</h1>
+        <p>Welcome to my professional portfolio.</p>
+        <nav>
+            <a href="#about">About</a> | 
+            <a href="#skills">Skills</a> | 
+            <a href="#projects">Projects</a> | 
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>[Insert your short 2-3 sentence bio here.]</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML / CSS / JavaScript</li>
+                <li>Python / Django</li>
+                <li>Git & GitHub</li>
+                <!-- Add your skills here -->
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <div class="project-card">
+                <h3>Project 1: To-Do App</h3>
+                <p>A simple task management application featuring local storage persistence.</p>
+                <p><strong>Built with:</strong> JavaScript, HTML, CSS</p>
+                <a href="[Your GitHub Project Link]" target="_blank">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Project 2: Weather API Script</h3>
+                <p>A Python automation script that fetches live data from an external weather API.</p>
+                <p><strong>Built with:</strong> Python, Requests library</p>
+                <a href="[Your GitHub Project Link]" target="_blank">View on GitHub</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Connect With Me</h2>
+            <p>Feel free to reach out for collaborations or opportunities!</p>
+            <ul>
+                <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+                <li>GitHub: <a href="[Your GitHub Link]" target="_blank">github.com/yourusername</a></li>
+                <li>LinkedIn: <a href="[Your LinkedIn Link]" target="_blank">linkedin.com/in/yourusername</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 [Your Name]. Built from scratch.</p>
+    </footer>
+
+</body>
+</html>
